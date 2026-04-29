@@ -1,0 +1,29 @@
+# 环境变量与密钥
+.env
+.streamlit/secrets.toml
+
+# 缓存与上传（运行时生成）
+cache/
+uploads/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日志
+logs/
+*.log
+
+# macOS
+.DS_Store
+
+# Claude Code 本地配置（非通用）
+.claude/settings.local.json
